@@ -50,13 +50,21 @@ const Index = () => {
       <section id="home" className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
+            <div className="mb-6">
+              <span className="text-2xl">✝️</span>
+            </div>
             <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight">
-              I Found My Healing — And My Waistline — Through{' '}
-              <span className="text-amber-600">Faith and Science</span> at 45
+              Faith, Fat Loss & the Hidden Key to{' '}
+              <span className="text-amber-600">Healing After 40</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              This faith-inspired liver detox helped me release stubborn weight, restore my energy, and reconnect with purpose.
-            </p>
+            <div className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed space-y-4">
+              <p>At 45, I wasn't just tired.</p>
+              <p className="italic">"I was spiritually drained, emotionally worn out, and physically stuck.</p>
+              <p>I had tried it all. Diets, detox teas, endless cardio, and even prayers</p>
+              <p>And yet, I still couldn't lose the stubborn belly fat or find the energy I once had.</p>
+              <p>I blamed my age. My hormones. Myself.</p>
+              <p className="font-semibold">But deep down, I knew something wasn't adding up."</p>
+            </div>
             <Button 
               onClick={handleVideoClick}
               className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
@@ -65,8 +73,8 @@ const Index = () => {
             </Button>
             <div className="mt-12">
               <img 
-                src="/api/placeholder/600/400" 
-                alt="Smiling woman representing transformation" 
+                src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=600&h=400&fit=crop" 
+                alt="Woman finding peace and healing" 
                 className="mx-auto rounded-2xl shadow-2xl max-w-md w-full"
               />
             </div>
@@ -74,107 +82,151 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Personal Story Section */}
+      {/* Prayer Answer Section */}
       <section id="story" className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
-              My Journey from Hopeless to Healed
+              🙏 The Answer to My Prayers Was Hiding in Plain Sight…
             </h2>
             <div className="prose prose-lg mx-auto text-gray-700 leading-relaxed">
               <p className="text-xl mb-6">
-                At 45, I was drowning in my own body. Every morning felt like climbing a mountain just to get out of bed. 
-                The stubborn fat around my waist seemed to mock every diet I tried, every workout I attempted.
+                One night, in a moment of surrender, I prayed for a breakthrough.
               </p>
               <p className="mb-6">
-                I remember one particular evening, sitting in my kitchen after another failed attempt at meal prep, 
-                feeling utterly <strong>hopeless</strong>. In that moment of desperation, I found myself in 
-                <strong> silent prayer</strong>, asking God why I couldn't find the strength to take care of the body He gave me.
+                Not another trend or "quick fix", but real, lasting healing.
               </p>
               <p className="mb-6">
-                That's when everything changed. Through a series of what I can only call divine appointments, 
-                I discovered the truth about liver health and how it affects everything — our energy, our weight, our joy.
+                That's when I discovered something I had never even considered:
+              </p>
+              <p className="mb-6 font-semibold text-amber-600 text-xl">
+                My liver was silently slowing everything down.
               </p>
               <p className="mb-6">
-                When I learned that 85% of women over 40 have compromised liver function, it all clicked. 
-                My body wasn't broken; it just needed the right support to heal itself the way God designed it to.
-              </p>
-              <p className="text-xl font-semibold text-amber-600">
-                Today, my <strong>energy is reborn</strong>, my confidence restored, and my <strong>faith stronger</strong> than ever. 
-                I know this wasn't just for me — it was meant to be shared.
+                I learned how, especially for women over 40, a sluggish liver can completely block fat-burning, 
+                drain energy, and throw off your body's natural balance.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Benefits Section */}
-      <section id="truth" className="py-16 bg-gradient-to-r from-amber-50 to-rose-50">
+      {/* 5-Minute Routine Section */}
+      <section className="py-16 bg-gradient-to-r from-amber-50 to-rose-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+              🌿 A 5-Minute Routine That Changed Everything
+            </h2>
+            <div className="prose prose-lg mx-auto text-gray-700 leading-relaxed text-center">
+              <p className="text-xl mb-6">
+                What I found wasn't a miracle pill.
+              </p>
+              <p className="mb-6">
+                It wasn't expensive or extreme.
+              </p>
+              <p className="mb-6">
+                It was a simple, science-backed routine, just five minutes a day. One that works with your body's design, not against it.
+              </p>
+              <p className="mb-8 font-semibold text-amber-600">
+                And more importantly: It aligned with my values. With my faith. With how God created us to function.
+              </p>
+              
+              <div className="bg-white rounded-2xl p-8 shadow-lg mb-8">
+                <p className="text-lg font-semibold mb-4">After just a few weeks:</p>
+                <div className="space-y-2">
+                  <p>🔥 My belly started shrinking</p>
+                  <p>⚡ My energy came back</p>
+                  <p>🕊️ I felt connected to my body again and to God's purpose for my health</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Not Just About Fat Loss Section */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
+              📖 Why This Isn't Just About Fat Loss
+            </h2>
+            <div className="prose prose-lg mx-auto text-gray-700 leading-relaxed">
+              <p className="text-xl mb-6">
+                You may be feeling the same right now, tired, frustrated, and wondering if lasting change is even possible.
+              </p>
+              <p className="mb-6 font-semibold text-amber-600">
+                Let me tell you this with love:
+              </p>
+              <div className="bg-gradient-to-r from-amber-50 to-rose-50 p-8 rounded-2xl mb-8">
+                <p className="mb-4 font-semibold">You are not broken.</p>
+                <p className="mb-4 font-semibold">You are not too late.</p>
+                <p className="mb-4 font-semibold">And your body was never designed to fight against itself.</p>
+              </div>
+              <p className="mb-6">
+                This journey is about more than the number on the scale.
+              </p>
+              <p className="mb-6">
+                It's about healing from the inside out.
+              </p>
+              <p className="text-xl font-semibold text-amber-600">
+                It's about reclaiming your energy, your confidence, and your connection with God's plan for your life.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Video Learning Section */}
+      <section className="py-16 bg-gradient-to-r from-amber-50 to-rose-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-12">
-            Restore What God Intended
+            🎥 What You'll Learn in This Free Video
           </h2>
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <Card className="bg-white/80 backdrop-blur-sm border-amber-200 shadow-lg hover:shadow-xl transition-all duration-300">
-              <CardContent className="p-8 text-center">
-                <Sparkles className="h-12 w-12 text-amber-600 mx-auto mb-4" />
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Natural Fat Burning</h3>
-                <p className="text-gray-600">
-                  Naturally burn belly fat with your body's God-given processes. 
-                  No extreme diets or punishing workouts required.
-                </p>
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <Card className="bg-white/80 backdrop-blur-sm border-amber-200 shadow-lg">
+              <CardContent className="p-8">
+                <div className="space-y-4">
+                  <p className="flex items-start"><span className="text-green-600 mr-2">✅</span> The hidden liver switch that affects women over 40</p>
+                  <p className="flex items-start"><span className="text-green-600 mr-2">✅</span> Why most diets don't work (and what to do instead)</p>
+                </div>
               </CardContent>
             </Card>
             
-            <Card className="bg-white/80 backdrop-blur-sm border-amber-200 shadow-lg hover:shadow-xl transition-all duration-300">
-              <CardContent className="p-8 text-center">
-                <Battery className="h-12 w-12 text-emerald-600 mx-auto mb-4" />
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Restored Energy</h3>
-                <p className="text-gray-600">
-                  Restore energy and joy without extreme measures. 
-                  Wake up feeling refreshed and ready for your purpose.
-                </p>
-              </CardContent>
-            </Card>
-            
-            <Card className="bg-white/80 backdrop-blur-sm border-amber-200 shadow-lg hover:shadow-xl transition-all duration-300">
-              <CardContent className="p-8 text-center">
-                <Bird className="h-12 w-12 text-sky-600 mx-auto mb-4" />
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Spiritual Alignment</h3>
-                <p className="text-gray-600">
-                  Feel spiritually aligned and physically renewed. 
-                  Honor your body as the temple it was created to be.
-                </p>
+            <Card className="bg-white/80 backdrop-blur-sm border-amber-200 shadow-lg">
+              <CardContent className="p-8">
+                <div className="space-y-4">
+                  <p className="flex items-start"><span className="text-green-600 mr-2">✅</span> A gentle detox method rooted in science and supported by faith</p>
+                  <p className="flex items-start"><span className="text-green-600 mr-2">✅</span> How to reignite your body's fat-burning naturally, without gym obsession or starvation</p>
+                </div>
               </CardContent>
             </Card>
           </div>
         </div>
       </section>
 
-      {/* Testimonial Section */}
+      {/* This Is For You Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <Card className="bg-gradient-to-r from-amber-50 to-rose-50 border-amber-200">
-              <CardContent className="p-8 md:p-12">
-                <div className="flex flex-col md:flex-row items-center gap-8">
-                  <div className="flex-1">
-                    <blockquote className="text-xl md:text-2xl text-gray-700 italic mb-4">
-                      "I felt like I was finally treating my body with the love God intended. 
-                      The transformation wasn't just physical — it was spiritual and emotional too."
-                    </blockquote>
-                    <cite className="text-amber-600 font-semibold">— Sarah M., Age 47</cite>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <img 
-                      src="/api/placeholder/200/200" 
-                      alt="Testimonial" 
-                      className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-lg"
-                    />
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">
+              ✨ This Is For You If:
+            </h2>
+            <div className="grid md:grid-cols-2 gap-6 mb-12">
+              <div className="bg-gradient-to-r from-amber-50 to-rose-50 p-6 rounded-2xl">
+                <p className="text-lg">You're a woman of faith, 40+</p>
+              </div>
+              <div className="bg-gradient-to-r from-amber-50 to-rose-50 p-6 rounded-2xl">
+                <p className="text-lg">You've tried everything but still feel stuck</p>
+              </div>
+              <div className="bg-gradient-to-r from-amber-50 to-rose-50 p-6 rounded-2xl">
+                <p className="text-lg">You want a natural, truthful approach</p>
+              </div>
+              <div className="bg-gradient-to-r from-amber-50 to-rose-50 p-6 rounded-2xl">
+                <p className="text-lg">You're ready to restore your health and walk in purpose again</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -184,10 +236,11 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-              Download the 5-Minute Liver Reset Checklist
+              🎁 Bonus: Free Checklist Download
             </h2>
             <p className="text-xl text-gray-600 mb-8">
-              Get a free step-by-step guide to begin your fat-loss and faith journey today.
+              I created a "5-Minute Liver Reset Checklist" so you can start right away.
+              📩 Drop your email to receive it. No fluff, no spam. Just real steps, real results.
             </p>
             
             <Card className="bg-white shadow-xl">
@@ -231,20 +284,35 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Final CTA Section */}
+      {/* Final Thoughts & CTA Section */}
       <section id="video" className="py-16 bg-gradient-to-r from-amber-600 to-rose-500 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            You were created for more.
+          <h2 className="text-3xl md:text-4xl font-bold mb-8">
+            ❤️ Final Thoughts
           </h2>
-          <p className="text-xl mb-8 opacity-90">
-            Reclaim your health today.
-          </p>
+          <div className="max-w-3xl mx-auto mb-8">
+            <p className="text-xl mb-6 opacity-90">
+              Friend, if you've been praying for something real.
+            </p>
+            <p className="text-lg mb-6 opacity-90">
+              Not hype, not false promises, but healing that aligns with your body and your beliefs…
+            </p>
+            <p className="text-xl font-semibold mb-6">
+              This is it.
+            </p>
+            <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl mb-8">
+              <p className="text-lg mb-4">You were created with purpose.</p>
+              <p className="text-lg">You are meant to feel strong, light, and aligned in health and in spirit.</p>
+            </div>
+            <p className="text-lg opacity-90">
+              Trust, this might just be your turning point.
+            </p>
+          </div>
           <Button 
             onClick={handleVideoClick}
             className="bg-white text-amber-600 hover:bg-gray-100 px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
           >
-            🎥 Watch the Free Liver Detox Video
+            👉 Watch the Free Video Here
           </Button>
         </div>
       </section>
