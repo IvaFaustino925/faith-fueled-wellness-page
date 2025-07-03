@@ -5,7 +5,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Separator } from '@/components/ui/separator';
-import { Heart, Sparkles, Battery, Dove } from 'lucide-react';
+import { Heart, Sparkles, Battery, Bird } from 'lucide-react';
 
 const Index = () => {
   const handleVideoClick = () => {
@@ -139,7 +139,7 @@ const Index = () => {
             
             <Card className="bg-white/80 backdrop-blur-sm border-amber-200 shadow-lg hover:shadow-xl transition-all duration-300">
               <CardContent className="p-8 text-center">
-                <Dove className="h-12 w-12 text-sky-600 mx-auto mb-4" />
+                <Bird className="h-12 w-12 text-sky-600 mx-auto mb-4" />
                 <h3 className="text-xl font-bold text-gray-800 mb-4">Spiritual Alignment</h3>
                 <p className="text-gray-600">
                   Feel spiritually aligned and physically renewed. 
