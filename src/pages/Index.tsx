@@ -53,11 +53,11 @@ const Index = () => {
             <div className="mb-6">
               <span className="text-2xl">✝️</span>
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight">
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6 leading-tight">
               Faith, Fat Loss & the Hidden Key to{' '}
               <span className="text-amber-600">Healing After 40</span>
             </h1>
-            <div className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed space-y-4">
+            <div className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed space-y-4">
               <p>At 45, I wasn't just tired.</p>
               <p className="italic">"I was spiritually drained, emotionally worn out, and physically stuck.</p>
               <p>I had tried it all. Diets, detox teas, endless cardio, and even prayers</p>
