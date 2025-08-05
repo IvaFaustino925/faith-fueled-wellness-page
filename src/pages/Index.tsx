@@ -32,7 +32,7 @@ const Index = () => {
             <div className="flex items-center space-x-2">
               <Heart className="h-6 w-6 text-amber-600" />
               <div>
-                <h1 className="text-xl font-bold text-gray-800">fait.by.purpose</h1>
+                <h1 className="text-xl font-bold text-gray-800">faith.by.purpose</h1>
                 <p className="text-xs text-amber-600">Where Faith Meets Wellness</p>
               </div>
             </div>
@@ -325,7 +325,7 @@ const Index = () => {
               <div>
                 <div className="flex items-center space-x-2 mb-4">
                   <Heart className="h-5 w-5 text-amber-400" />
-                  <span className="font-bold">fait.by.purpose</span>
+                  <span className="font-bold">faith.by.purpose</span>
                 </div>
                 <p className="text-gray-400 text-sm">
                   Where Faith Meets Wellness
@@ -342,14 +342,14 @@ const Index = () => {
               <div>
                 <h4 className="font-semibold mb-3">Contact</h4>
                 <p className="text-gray-400 text-sm">
-                  contact@faitbypurpose.com
+                  contact@faithbypurpose.com
                 </p>
               </div>
             </div>
             <Separator className="bg-gray-700 my-8" />
             <div className="text-center text-sm text-gray-400">
               <p className="mb-2">
-                © 2024 fait.by.purpose. All rights reserved.
+                © 2024 faith.by.purpose. All rights reserved.
               </p>
               <p>
                 This site is for educational purposes and may contain affiliate links. 
